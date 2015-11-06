@@ -178,7 +178,7 @@ public class DKImagePickerController: UINavigationController {
     private lazy var doneButton: UIButton = {
         let button = UIButton(type: UIButtonType.Custom)
         button.setTitle("", forState: UIControlState.Normal)
-        button.setTitleColor(self.navigationBar.tintColor, forState: UIControlState.Normal)
+        button.setTitleColor(UIColor.greenColor(), forState: UIControlState.Normal)
         button.reversesTitleShadowWhenHighlighted = true
         button.addTarget(self, action: "done", forControlEvents: UIControlEvents.TouchUpInside)
         
