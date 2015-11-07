@@ -27,7 +27,7 @@ internal class DKImageResource {
     }
     
     class func checkedImage() -> UIImage {
-        var image = imageForResource("checked_background")
+        var image = imageForResource("checked_background_pink")
         let center = image.size.width / 2
         image = image.resizableImageWithCapInsets(UIEdgeInsets(top: center, left: center, bottom: center, right: center))
         
